@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Em Desenvolvimento</title>
+    <style>
+        input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        input[type=submit] {
+          width: 100%;
+          background-color: #f50c0c;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        input[type=submit]:hover {
+          background-color: #e03232;
+        }
+        
+        div {
+          border-bottom-left-radius: 15px;
+          border-bottom-right-radius: 15px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(185, 181, 181);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        body {
+          background-color: rgb(26, 26, 31);
+          background-size: auto;
+        }
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          border-top-left-radius: 15px;
+          border-top-right-radius: 15px;
+        }
+        li {
+          float: left;
+        }
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        li a:hover {
+          background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <h1>Em Desenvolvimento</h1>
+    <ul>
+      <li><a class="active" href="#home">Início</a></li>
+      <li><a href="#news">Novidades</a></li>
+      <li><a href="#contact">Contato</a></li>
+      <li><a href="#about">Planos VIP</a></li>
+    </ul>
+    <div>
+        <form action="/action_page.php">
+          <label for="pnome">Primeiro Nome:</label>
+          <input type="text" id="nome" name="pnome" placeholder="Primeio Nome">
+          <label for="snome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="snome" placeholder="Sobrenome">
+          <label for="telefone">Telefone:</label>
+          <input type="text" id="telefone" name="telefone" placeholder="(00) 0 0000-0000">
+          <br>
+          <label for="estado">Ultilitário:</label>
+          <select id="estado" name="estado">
+            <option value="vip">Método 1</option>
+            <option value="vip">Método 2</option>
+            <option value="vip">Método 3</option>
+            <option value="vip">Método 4</option>
+          </select>  
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado">
+            <option value="ac">Acre (AC)</option>
+            <option value="al">Alagoas (AL)</option>
+            <option value="ap">Amapá (AL)</option>
+            <option value="am">Amazonas (AM)</option>
+            <option value="ba">Bahia (BA)</option>
+            <option value="ce">Ceará (CE)</option>
+            <option value="es">Espírito Santo (ES)</option>
+            <option value="go">Goiás (GO)</option>
+            <option value="ma">Maranhão (MA)</option>
+            <option value="mt">Mato Grosso (MT)</option>
+            <option value="ms">Mato Groso do Sul (MS)</option>
+            <option value="mg">Minas Gerais (MG)</option>
+            <option value="pa">Pará (PA)</option>
+            <option value="pb">Paraíba (PB)</option>
+            <option value="pr">Paraná (PR)</option>
+            <option value="pe">Pernambuco (PE)</option>
+            <option value="pi">Piauí (PI)</option>
+            <option value="rj">Rio de Janeiro (RJ)</option>
+            <option value="rn">Rio Grande do Norte (RN)</option>
+            <option value="rs">Rio Grande do Sul (RS)</option>
+            <option value="ro">Rondônia (RO)</option>
+            <option value="rr">Roraima (RR)</option>
+            <option value="sc">Santa Catarina (SC)</option>
+            <option value="sp">São Paulo (SP)</option>
+            <option value="se">Sergipe (SE)</option>
+            <option value="to">Tocantins (TO)</option>
+            <option value="df">Distrito Federal (DF)</option>
+          </select>
+          
+          <input type="submit" value="Começar a Lucrar!">
+        </form>
+    </div>
+</body>
+</html>
